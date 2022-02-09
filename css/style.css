@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2rem;
+    
+    display: flex;
+    justify-content: center;
+
+    background-color: #153151;
+    color: #fff;
+}
+
+.testo{
+    margin-bottom: 1rem;
+}
+
+.container{
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 1rem;
+}
+
+.container i:hover{
+    cursor: pointer;
+}

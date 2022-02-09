@@ -7,14 +7,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vue-hello</title>
 
+        <!-- link font awesome 6.0 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- link style.css -->
+        <link rel="stylesheet" href="css/style.css">
+
     </head>
 
     <body>
 
         <div id="root">
-            <h1>{{testo}}</h1>
+
+            
+            <h1 class="testo">{{testo}}</h1>
             <img :src="img" alt="foto in vacanza">
+            
+            <div class="container">
+                <i @click="indietro" class="fa-solid fa-circle-arrow-left"></i>
+                <i @click="avanti" class="fa-solid fa-circle-arrow-right"></i>
+            </div>
+            
+
+
         </div>
+
         
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
