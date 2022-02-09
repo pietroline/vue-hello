@@ -27,7 +27,7 @@ const vue = new Vue(
 
 
                 }
-
+ 
             },
 
             avanti: function(){
